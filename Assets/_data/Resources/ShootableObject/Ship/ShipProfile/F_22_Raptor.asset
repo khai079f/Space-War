@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e573d221aabca9a4b93fc0a072d143f8, type: 3}
+  m_Name: F_22_Raptor
+  m_EditorClassIdentifier: 
+  shipCode: 2
+  shipName: 2
+  typeObject: 1
+  sprite: {fileID: 5000509135750115925, guid: 2615c7175cdb2284abe1fe723df2c7d1, type: 3}
+  originalDame: 3
+  originalMaxHP: 100
+  originalArmor: 5
+  originalMana: 10
+  originalManaRecovery: 0.3
+  baseDame: 4.8315296
+  baseHp: 100
+  baseArmor: 5
+  baseMana: 10
+  manaRecovery: 0.3

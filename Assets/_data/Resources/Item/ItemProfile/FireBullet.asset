@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 450901108766f664cbce7660b949680a, type: 3}
+  m_Name: FireBullet
+  m_EditorClassIdentifier: 
+  itemCode: 4
+  itemType: 2
+  itemName: 4
+  defaultMaxStack: 1
+  sprite: {fileID: 21300014, guid: 8aeb9e233fbb8f14db39770841b78b94, type: 3}
+  upgradeLevels:
+  - ingredient:
+    - itemProfile: {fileID: 11400000, guid: 3b158daa412eadd4eaedca24e2a9a456, type: 2}
+      itemCount: 4
+    - itemProfile: {fileID: 11400000, guid: 0f52c23d9de96e941874bac25aeb34f2, type: 2}
+      itemCount: 1
+  - ingredient:
+    - itemProfile: {fileID: 11400000, guid: 3b158daa412eadd4eaedca24e2a9a456, type: 2}
+      itemCount: 2
+    - itemProfile: {fileID: 11400000, guid: 0f52c23d9de96e941874bac25aeb34f2, type: 2}
+      itemCount: 5
+    - itemProfile: {fileID: 11400000, guid: 298307eb0124bde44b5b688d33ea6da6, type: 2}
+      itemCount: 1
+  - ingredient:
+    - itemProfile: {fileID: 11400000, guid: 298307eb0124bde44b5b688d33ea6da6, type: 2}
+      itemCount: 5

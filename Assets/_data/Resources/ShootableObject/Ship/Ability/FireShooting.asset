@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f039c1c35cd9e14a8cb42cee55231e6, type: 3}
+  m_Name: FireShooting
+  m_EditorClassIdentifier: 
+  typeObject: 3
+  nameAbility: FireShooting
+  baseDame: 1
+  baseCooldown: 0.2
+  baseManaUse: 0.5
+  baseLv: 1
+  dame: 1
+  cooldown: 0.2
+  manaUse: 0.5
+  lv: 1
+  description: Fire a rapid stream of energy bullets at enemies. Reliable and versatile,
+    this skill forms the backbone of your offense.
+  sprite: {fileID: 21300000, guid: 1f1550727fbbefc4eafef324c15e84cb, type: 3}
+  isActiveSkill: 1
+  contentLevelup:
+    damageIncrease: 0.1
+    cooldownReduction: 0.01
+    manaUseReduction: 0
+    description: Increases damage, reduces cooldown and mana cost, increases ammo
+      count

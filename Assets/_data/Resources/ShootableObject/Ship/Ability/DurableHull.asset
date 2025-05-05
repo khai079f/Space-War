@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f039c1c35cd9e14a8cb42cee55231e6, type: 3}
+  m_Name: DurableHull
+  m_EditorClassIdentifier: 
+  typeObject: 4
+  nameAbility: 
+  baseDame: 100
+  baseCooldown: 0
+  baseManaUse: 0
+  baseLv: 0
+  dame: 100
+  cooldown: 0
+  manaUse: 0
+  lv: 0
+  description: increase Max Hp
+  sprite: {fileID: 1673120774238986859, guid: bf123cd159b26ee4e8e789819199131b, type: 3}
+  isActiveSkill: 1
+  contentLevelup:
+    damageIncrease: 0
+    cooldownReduction: 0
+    manaUseReduction: 0
+    description: increase Max Hp

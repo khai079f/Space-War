@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f039c1c35cd9e14a8cb42cee55231e6, type: 3}
+  m_Name: AbilityWarp
+  m_EditorClassIdentifier: 
+  typeObject: 3
+  nameAbility: AbilityWarp
+  baseDame: 1
+  baseCooldown: 2
+  baseManaUse: 2
+  baseLv: 1
+  dame: 1
+  cooldown: 2
+  manaUse: 2
+  lv: 1
+  description: Perform a swift dash in the targeted direction, allowing you to evade
+    enemy attacks or reposition quickly. During the dash, you are invulnerable to
+    damage.
+  sprite: {fileID: 7078034478095948896, guid: 25a1c07ce45846046a88efa27819bc54, type: 3}
+  isActiveSkill: 1
+  contentLevelup:
+    damageIncrease: 0.5
+    cooldownReduction: 0.1
+    manaUseReduction: 0.2
+    description: reduces cooldown and mana use per level

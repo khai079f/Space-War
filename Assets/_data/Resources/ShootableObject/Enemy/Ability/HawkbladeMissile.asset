@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f039c1c35cd9e14a8cb42cee55231e6, type: 3}
+  m_Name: HawkbladeMissile
+  m_EditorClassIdentifier: 
+  typeObject: 0
+  nameAbility: 
+  baseDame: 5
+  baseCooldown: 7
+  baseManaUse: 0
+  baseLv: 1
+  dame: 5
+  cooldown: 7
+  manaUse: 0
+  lv: 1
+  description: 
+  sprite: {fileID: 6711257252158638106, guid: b4b7c07edd466c546a902b97f9ed09f6, type: 3}
+  isActiveSkill: 1
+  contentLevelup:
+    damageIncrease: 0.5
+    cooldownReduction: 0.1
+    manaUseReduction: 0.2
+    description: Increases damage, reduces cooldown and mana use per level

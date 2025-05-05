@@ -1,0 +1,16 @@
+Normal enemy:
+
+1.Di chuyển đến Player:
+
+NormalEnemy sẽ luôn cố gắng đến gần Player đến một khoảng cách nhất định.
+
+2.Sử dụng khả năng khi ở gần player:
+Khi đến gần một khoảng cách cụ thể, NormalEnemy sẽ chỉ được kích hoạt 1 khả năng (như bắn tên lửa) trong nhiều khả năng của nó, và điều kiện kích hoạt của nó là thứ tự ưu tiên (thứ tự slot trong list) và gian hồi chiêu (cooldown)
+
+3.Rút lui sau khi tấn công:
+Đây là 1 hành vi khi enemy đã sử dụng 1 khả khi ở gần player(như bắn tên lửa) và enemy sẽ rút lui ra đủ 1 khoảng cách (Enemy là SpaceShip cách hoạt động giống như fighter nên chỉ bay về phía trước không có lùi). Trong trạng thái rút lui
+enemy sẽ không dùng các ability tấn công.
+4.Sau khi rút lui enemy lại tiếp tục vòng lặp 1, 2,3. Tuy nhiên khi ở giai đoạn 2 nếu enemy dùng basic attack( bắn đạn thường và điều kiện các ability khác đang cooldown), thì enemy sẽ vừa duy chuyển vừa bắn khi đến khoảng cách nhất định(
+sẽ gần hơn khoảng cách giai đoạn 2) chúng sẽ thực hiện giai đoạn 3.
+
+

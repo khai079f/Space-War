@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 450901108766f664cbce7660b949680a, type: 3}
+  m_Name: Titan
+  m_EditorClassIdentifier: 
+  itemCode: 3
+  itemType: 1
+  itemName: 3
+  defaultMaxStack: 7
+  sprite: {fileID: 21300000, guid: 05f63a7168a571747a7279ec26711beb, type: 3}
+  upgradeLevels:
+  - ingredient:
+    - itemProfile: {fileID: 11400000, guid: 0f52c23d9de96e941874bac25aeb34f2, type: 2}
+      itemCount: 2
