@@ -22,10 +22,6 @@ MonoBehaviour:
   baseSpeed: 7
   dropList:
   - itemSO: {fileID: 11400000, guid: 7c2d1b508009eda4eba3932792742b0b, type: 2}
-    dropRate: 10
-    minDrop: 1
-    maxDrop: 1
-  - itemSO: {fileID: 11400000, guid: b3ecffce70384b84287659d1cd3388aa, type: 2}
-    dropRate: 90
+    dropRate: 100
     minDrop: 1
     maxDrop: 1
