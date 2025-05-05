@@ -15,11 +15,11 @@ MonoBehaviour:
   typeObject: 2
   nameAbility: 
   baseDame: 10
-  baseCooldown: 7
+  baseCooldown: 5
   baseManaUse: 0
   baseLv: 1
   dame: 10
-  cooldown: 7
+  cooldown: 5
   manaUse: 0
   lv: 1
   description: 

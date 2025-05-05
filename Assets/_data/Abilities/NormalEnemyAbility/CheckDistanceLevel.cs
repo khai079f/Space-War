@@ -4,7 +4,7 @@ public class CheckDistanceLevel : GameMonoBehaviour
 {
      protected float farDistance = 22f;  // Ngưỡng để phân biệt khoảng cách "xa"
      protected float safeDistance = 17f;  // Ngưỡng để phân biệt khoảng cách "an toàn"
-     protected float attackDistance = 7f;
+     protected float attackDistance = 10f;
     [SerializeField] protected float distance ;
     public float Distance => distance;
     // Tính toán khoảng cách giữa đối tượng và người chơi

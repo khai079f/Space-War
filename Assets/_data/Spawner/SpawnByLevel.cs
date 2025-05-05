@@ -43,7 +43,6 @@ public class SpawnByLevel : SpawnerCtrl
         Transform enemy = spawner.Spawn(objPrefab.name, pos, rot);
         if (enemy == null) return;
         enemy.gameObject.SetActive(true); // Activate the object
-
         //enemy.InitializeStateForEnemy(new RetreatState(enemy, enemy.StateEnemy.stateMachine, enemy.AbilityCtrl.LookAtEnemy.GetPlayerPos()));
     }
 

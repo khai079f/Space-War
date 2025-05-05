@@ -16,13 +16,13 @@ MonoBehaviour:
   shipName: 2
   typeObject: 1
   sprite: {fileID: 5000509135750115925, guid: 2615c7175cdb2284abe1fe723df2c7d1, type: 3}
-  originalDame: 3
-  originalMaxHP: 100
+  originalDame: 5
+  originalMaxHP: 300
   originalArmor: 5
   originalMana: 10
   originalManaRecovery: 0.3
-  baseDame: 4.8315296
-  baseHp: 100
+  baseDame: 5
+  baseHp: 300
   baseArmor: 5
   baseMana: 10
   manaRecovery: 0.3

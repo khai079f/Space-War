@@ -16,7 +16,7 @@ MonoBehaviour:
   objType: 2
   sprite: {fileID: -612213632479785300, guid: 8b38a5a9889a6bc4ab37eb46219ccdce, type: 3}
   baseDame: 5
-  baseMaxHp: 10
+  baseMaxHp: 15
   baseMaxMana: 2
   baseManaRecovery: 0.3
   baseSpeed: 5

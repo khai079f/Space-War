@@ -28910,7 +28910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &383065714
 Transform:
   m_ObjectHideFlags: 0
@@ -39988,7 +39988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &509449784
 Transform:
   m_ObjectHideFlags: 0
@@ -47509,7 +47509,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &721598911
 Transform:
   m_ObjectHideFlags: 0
@@ -66424,6 +66424,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1210558101}
     m_Modifications:
+    - target: {fileID: 5043185860506151264, guid: ade2f918304faa64595db7e95c97867f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043185860506151264, guid: ade2f918304faa64595db7e95c97867f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5656211393384685368, guid: ade2f918304faa64595db7e95c97867f, type: 3}
+      propertyPath: m_Radius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5656211393384685368, guid: ade2f918304faa64595db7e95c97867f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8822993487939214969, guid: ade2f918304faa64595db7e95c97867f, type: 3}
       propertyPath: m_Name
       value: EnergyShield
@@ -66473,13 +66489,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8822993487939214971, guid: ade2f918304faa64595db7e95c97867f, type: 3}
+      propertyPath: delay
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8822993487939214971, guid: ade2f918304faa64595db7e95c97867f, type: 3}
       propertyPath: maxHpShield
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8822993487939214971, guid: ade2f918304faa64595db7e95c97867f, type: 3}
       propertyPath: abilityEnemyCtrl
       value: 
-      objectReference: {fileID: 1099907548}
+      objectReference: {fileID: 1210558102}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ade2f918304faa64595db7e95c97867f, type: 3}
 --- !u!1 &1009614150
@@ -74109,7 +74129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1186912599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97315,7 +97335,7 @@ MonoBehaviour:
     currentSpawnedCount: 0
     levelSpawnSetting:
       spawnType: 3
-      customLevels: 8
+      customLevels: 10
   spawnDelay: 1
 --- !u!114 &1829430096
 MonoBehaviour:
@@ -128163,7 +128183,7 @@ MonoBehaviour:
       spawnType: 1
       customLevels: "V\xED d\u1EE5: 5,10,15"
   - objectSpawner: {fileID: 1559940014}
-    numberSpawnByLevel: 2
+    numberSpawnByLevel: 1
     curentLimitNumberSpawn: 0
     currentSpawnedCount: 0
     levelSpawnSetting:
@@ -128174,8 +128194,8 @@ MonoBehaviour:
     curentLimitNumberSpawn: 0
     currentSpawnedCount: 0
     levelSpawnSetting:
-      spawnType: 1
-      customLevels: "V\xED d\u1EE5: 5,10,15"
+      spawnType: 3
+      customLevels: 4,6,8,10
   spawnDelay: 1
 --- !u!114 &2028622948
 MonoBehaviour:

@@ -20,7 +20,6 @@ public class AbilityEnemyEnergyShield : AbilityEnemyAbstract
     }
     protected virtual void LoadAbilityDameReceiver()
     {
-        if (this.abilityDameReceiver != null) return;
         this.abilityDameReceiver = transform.GetComponentInChildren<AbilityDameReceiver>();
         this.UpdateSizeForShield();
         Debug.LogWarning(transform.name + ":LoadAbilityDameReceiver", gameObject);
@@ -72,6 +71,7 @@ public class AbilityEnemyEnergyShield : AbilityEnemyAbstract
 
     protected virtual void UpdateSizeForShield()
     {
+        Debug.Log(abilityDameReceiver);
         if (this.abilityDameReceiver == null) return;
         this.abilityDameReceiver.UpdateLocalScale(this.abilityEnemyCtrl.BaseEnemyCtrl.enemyModel.GetShipDiameter());
         this.abilityDameReceiver.UpdateRadiusCollider(this.abilityEnemyCtrl.BaseEnemyCtrl.enemyModel.GetShipDiameter());
